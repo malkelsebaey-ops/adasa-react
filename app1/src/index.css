@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@custom-variant dark (&:where(.dark, .dark *));
+body {
+  background-color: #0A0A0A; /* gray-900 */
+  color: #f9fafb;            /* gray-50 */
+  min-height: 100vh;
+  font-family: "Cairo", sans-serif;
+};
+.nav{
+  border-radius: 9999px;
+  padding-left: 1.25rem; 
+  padding-right: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.nav-active
+{
+  background-color: #ED5E0E !important;
+  color: #fff !important;
+  border-radius: 9999px;
+  padding-left: 1.25rem; 
+  padding-right: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+};
+
